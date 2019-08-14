@@ -1,0 +1,144 @@
+
+
+header,nav, a, img, li{
+    transition: all 1s;
+    -moz-transition: all 1s; /* Firefox 4 */
+    -webkit-transition: all 1s; /* Safari and Chrome */
+    -o-transition: all 1s; /* Opera */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-12 {width: 100%;}
+    .col-4 {width: 33.33%;}
+   
+  }
+
+
+body {
+    font-size: 1.5em;
+}
+
+.films > img {
+    width:  auto;
+    height: 400px;
+}
+
+.contact {
+    background-color: rgb(239, 239, 239);
+    max-width: 1170px;
+    margin: auto auto;
+    padding: 0;
+}
+
+.bio {
+    background-color: white;
+    max-width: 1150px;
+    margin: auto auto;
+    padding: 0;
+}
+
+.form-group {
+ 
+    max-width: 700px;
+    margin-left: 300px;
+    padding: 0;
+}
+.btn {
+    margin-left: 475px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1vw;
+    font-family : Arial, Helvetica, sans-serif;
+
+}
+
+.col-sm-offset-2 > h3 {
+    font-size: 1.5vw;
+}
+
+.col-sm-offset-2 > h5 {
+    font-size: 1vw;
+}
+
+.move {
+    margin : auto;
+}
+
+
+
+
+
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
