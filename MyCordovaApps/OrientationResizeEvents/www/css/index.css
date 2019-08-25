@@ -1,0 +1,13 @@
+@media screen and (orientation: portrait) {
+    #outputOrientationResize {
+      color: yellow;
+      background-color: magenta;
+      }
+  }
+  
+  @media screen and (orientation: landscape) {
+    #outputOrientationResize {
+      color: magenta;
+      background-color: yellow;
+    }
+  }

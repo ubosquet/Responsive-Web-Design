@@ -1,0 +1,19 @@
+dl {
+    border: 3px double blue;
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: blue;
+}
+    dt::after {
+    content: ":";
+}
+dd {
+    margin: 0 0 0 100px;
+    padding: 0 0 0.5em 0;
+}

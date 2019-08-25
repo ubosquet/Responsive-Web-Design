@@ -1,0 +1,7 @@
+{
+  "name": "MySideMenuIonicApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

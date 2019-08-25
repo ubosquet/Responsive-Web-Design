@@ -1,0 +1,32 @@
+#calculator {
+    display: block;
+    width: auto;
+    border: 2px solid black;
+    padding: 5px;
+  }
+  
+  #display {
+    display: block;
+    font-size: x-large;
+    font-family: monospace;
+    text-align: right;
+    margin: auto;
+    width: calc(100% - 10px);
+  }
+  
+  .key {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: calc(25% - 10px);
+    height: 100px;
+    margin: 5px;
+    background: yellow;
+    float: left;
+    font-size: x-large;
+    font-family: monospace;
+  }
+  
+  #equals {
+    width: calc(100% - 10px);
+  }

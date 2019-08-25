@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+   
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Camera App</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Spicy Camera</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Camera is Ready</p>
+                <p class="event received">Camera is Ready</p>
+            </div>
+            <img id="myImage" />
+            <button id ="captureButton"> Get picture </button>
+            <div id="geolocation"></div>
+        </div>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBl9bqg0EKv4lXTZYkzLJVWgT9bJc0PKI0"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

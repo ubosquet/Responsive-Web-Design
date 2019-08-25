@@ -1,0 +1,7 @@
+{
+  "name": "my-page-turner",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
